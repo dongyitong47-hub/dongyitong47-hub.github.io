@@ -1,30 +1,26 @@
-slogan: "Keep and carry on."
-
-show_heart: true
+slogan: "探寻律法之源，重演断案之思"
 
 show_slogan: true
+show_date: false 
 
 menu:
-  - title: Archives
-    url: archives
-    intro: "All the articles."
-    # icon: "fa fa-archive"
-  - title: Categories
-    url: categories
-    intro: "All the categories."
-    # icon: "fa fa-folder"
-  - title: Tags
-    url: tags
-    intro: "All the tags."
-    # icon: "fa fa-tags"
-  - title: About
-    url: about
-    intro: "About me."
-    # icon: "fa fa-user"
-  - title: RSS
-    url: atom.xml
-    intro: "Subscribe me."
-    # icon: "fa fa-user"
+  - title: 首页        # 菜单名称（匹配示意图“首页”）
+    url: /             # 链接（首页路径）
+    intro: 回到官网首页 # 鼠标悬停提示
+    icon: fa fa-home   # 图标（可从 Font Awesome 官网找）
+  - title: 社区    
+    url: /community     
+    intro: 游戏社区
+    icon: fa fa-comment
+  - title: 新闻    # 匹配示意图“新闻”
+    url: /news         # 新闻页路径
+    intro: 最新游戏资讯
+    icon: fa fa-newspaper-o
+  - title: 档案    # 匹配示意图“档案”
+    url: /book        # 档案页路径
+    intro: 玩法攻略分享
+    icon: fa fa-book
+
 
 links:
   - title: Freemind
@@ -48,12 +44,9 @@ links:
   #   intro: "My Linkin account."
   #   icon: "fa fa-linkedin"
 
-widgets:
-- search
-- category
-- tagcloud
-- recent_posts
-- links
+# 原配置（可能包含 search、category、tagcloud 等）
+# 修改后配置（清空）
+widgets: []
 
 rss: 
 fancybox: true
