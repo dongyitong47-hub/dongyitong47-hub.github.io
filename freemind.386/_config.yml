@@ -1,0 +1,63 @@
+slogan: "探寻律法之源，重演断案之思"
+
+show_slogan: true
+show_date: false 
+
+menu:
+  - title: 首页        # 菜单名称（匹配示意图“首页”）
+    url: /             # 链接（首页路径）
+    intro: 回到官网首页 # 鼠标悬停提示
+    icon: fa fa-home   # 图标（可从 Font Awesome 官网找）
+  - title: 社区    
+    url: /community     
+    intro: 游戏社区
+    icon: fa fa-comment
+  - title: 新闻    # 匹配示意图“新闻”
+    url: /news         # 新闻页路径
+    intro: 最新游戏资讯
+    icon: fa fa-newspaper-o
+  - title: 档案    # 匹配示意图“档案”
+    url: /book        # 档案页路径
+    intro: 玩法攻略分享
+    icon: fa fa-book
+
+
+links:
+  - title: Freemind
+    url: https://github.com/wzpan/hexo-theme-freemind
+    intro: "Freemind's Github repository."
+    icon: "fa fa-github"
+  - title: BOOTSTRA.386
+    url: https://github.com/kristopolous/BOOTSTRA.386
+    intro: "BOOTSTRA.386's Github repository."
+    icon: "fa fa-github"
+  - title: Freemind.386
+    url: https://github.com/blackshow/hexo-theme-freemind.386
+    intro: "Freemind.386's Github repository."
+    icon: "fa fa-github"
+  - title: "My Github"
+    url: http://www.github.com/blackshow
+    intro: "My Github account."
+    icon: "fa fa-github"
+  # - title: "My LinkedIn"
+  #   url: http://www.linkedin.com/in/xxx
+  #   intro: "My Linkin account."
+  #   icon: "fa fa-linkedin"
+
+# 原配置（可能包含 search、category、tagcloud 等）
+# 修改后配置（清空）
+widgets: []
+
+rss: 
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname:
+
+
+# Analytics (change to yours)
+google_analytics:
+  enable: true
+  siteid: UA-70812759-1
+
+# search
+#swiftype_key: ZP2ZSuHgipSZfRyU8uTR
